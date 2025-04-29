@@ -50,3 +50,31 @@ function SumOf(n) {
 }
 document.writeln(SumOf(10));
 
+// 153= 1*1*1 + 5*5*5 + 3*3*3
+function armstrong (num) {
+    let temp = num;
+    while (temp > 0) {
+        let ld = temp % 10;
+        let digit = 1;
+        for (let i = 1; i <= 3; i++) {
+            digit *= ld;
+        }
+        arm += digit;
+        temp = Math.floor(temp /= 10);
+    }
+    document.writeln(arm);
+} if (arm = num) {
+    document.writeln("num is armstrong" );
+} else {
+    document.writeln("num is not armstrong");
+} function count (num) {
+    let i = 0;
+    while (num > 0) {
+        num = Math.floor(num /= 10);
+        i++;  
+    }
+    return i;
+}
+
+armstrong(153);
+
