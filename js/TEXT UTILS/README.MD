@@ -87,4 +87,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 Let me know your tech stack (React, Python, etc.), and I can tailor it even more specifically!
 ```
-https://drive.google.com/file/d/1RWft7bzPxWyZqdcfTqUypjt2bk6pqmSx/view?usp=sharing
+
