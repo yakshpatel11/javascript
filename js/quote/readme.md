@@ -47,9 +47,14 @@ python app.py
 
 ---
 
-## 📸 Screenshots
+## demo
 
-> _(Add screenshots of your app here if available)_
+
+
+
+
+https://github.com/user-attachments/assets/bbef8c9a-1ddd-4d9e-aa6c-b1d40e816bce
+
 
 ---
 
