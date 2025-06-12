@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background: #f0f0f0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #noteInput {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #button {
+            padding: 10px 15px;
+            font-size: 16px;
+            margin-top: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .note {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 5px solid #4CAF50;
+            position: relative;
+        }
+
+        .note button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+        .deleteBtn {
+            background: red;
+            color: white;
+            right: 10px;
+        }
+
+        .editBtn {
+            background: orange;
+            color: white;
+            right: 60px;
+        }
+
+        .note {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .note-title {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .note-content {
+            margin-top: 5px;
+        }
+
+        #addNoteBtn {
+            margin-right: 5px;
+            
+        }
+    </style>
+    </head>
+
+    <body>
+     
+        <input id="noteTitle" placeholder="Note Title" style="font-size: large;border-radius: 10px; height : 30px" />
+        <textarea id="noteInput" placeholder="Note content type here...." style="margin-top : 20px;font-size: 20px;border-radius: 10px; height : 100px"></textarea>
+        <button id="addNoteBtn" style="background-color: aqua; padding : 10px 15px 10px 15px; border-radius : 20px; border-color : aqua ; font-weight:bold; margin-top : 20px">Add Note</button>
+        <button id="clearAllBtn"  style="background-color: aqua; padding : 10px 15px 10px 15px; border-radius : 20px; border-color : aqua ; font-weight:bold; margin-top : 20px">Clear All Notes</button>
+        <div id="notesContainer"></div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
