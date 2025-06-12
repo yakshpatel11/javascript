@@ -35,6 +35,22 @@ Encapsulation means keeping data safe inside the object, and only allowing contr
 
 ---
 
+#video
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/1cb7e1cb-e694-458c-926f-282cd9c5de3a
+
+
+
+
+
+
+
 ### 🧬 **Inheritance**
 Inheritance allows one class to take on the properties and methods of another. This promotes **code reuse** and **hierarchical relationships**. 👨‍👧
 
