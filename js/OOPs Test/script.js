@@ -13,7 +13,7 @@ class Car {
 
 const car = new Car("Toyota", "Camry");
 document.writeln(car.getDetails());
- 
+
 
 
 
@@ -76,7 +76,7 @@ const calculator = new Calculator();
 calculator.add(5);
 calculator.subtract(3);
 document.writeln(calculator.getResult());
- 
+
 
 // Create a BankAccount class where balance is private. Add deposit(amount), withdraw(amount), and getBalance() methods. Try to access balance directly (it should not work).
 
@@ -112,7 +112,7 @@ class Vehicle {
     }
 }
 
-class Bike extends Vehicle {}
+class Bike extends Vehicle { }
 
 const bike = new Bike();
 bike.move();
@@ -128,7 +128,7 @@ class Person1 {
 class Student extends Person1 {
     study() {
         document.writeln("Studying...");
-    }           
+    }
 
 }
 
@@ -160,4 +160,39 @@ const sparrow = new Sparrow();
 const parrot = new Parrot();
 sparrow.makeSound();
 parrot.makeSound();
+
+// Create a Shape class with a method area(). Then create Circle and Square classes that extend Shape and implement their own area() logic.
+class Shape {
+    area() {
+        throw new Error("Method 'area()' must be implemented.");
+    }
+}
+class Circle extends Shape {
+    constructor(radius) {
+        super();
+        this.radius = radius;
+    }
+    area() {
+        return Math.PI * this.radius * this.radius;
+    }
+}
+class Square extends Shape {
+    constructor(side) {
+        super();
+        this.side = side;
+    }
+    area() {
+        return this.side * this.side;
+    }
+}
+const circle = new Circle(5);
+const square = new Square(4);
+document.writeln(`Circle area: ${circle.area()}`);
+document.writeln(`Square area: ${square.area()}`);
+
+// Create an array of Shape objects (like Circle and Square) and use a forEach() loop to print the area of each shape. This demonstrates polymorphism in action.
+const shapes = [new Circle(3), new Square(2), new Circle(4)];
+shapes.forEach(shape => {
+    document.writeln(`Shape area: ${shape.area()}`);
+});
 
