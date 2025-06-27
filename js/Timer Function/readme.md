@@ -7,13 +7,22 @@ Perfect for showcasing skills, slideshows, or just having a cool image viewer on
 
 ---
 
-## 📸 Features
+## 📸 VIDEO
 
-✅ View a collection of full-stack developer themed images
-➡️ Go to the **next image** manually
-⬅️ Go to the **previous image** manually
-🔁 Start automatic slideshow
-⏹️ Stop automatic slideshow
+
+
+
+https://github.com/user-attachments/assets/732f4df0-b131-4b31-aae0-142b0cbe5e5f
+
+
+
+
+
+
+
+
+
+
 
 ---
 
