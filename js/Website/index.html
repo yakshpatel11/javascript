@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+</head>
+  <style>
+
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #1a1a1a;
+      --primary-color: #007bff;
+      --heading-color: #000000;
+      --nav-bg: transparent;
+      --button-bg: #007bff;
+      --button-text: #ffffff;
+      --card-shadow: rgba(0, 0, 0, 0.1);
+    }
+
+    body.dark-mode {
+      --bg-color: #0f172a;
+      --text-color: #e2e8f0;
+      --primary-color: #3b82f6;
+      --heading-color: #3b82f6;
+      --nav-bg: #0f172a;
+      --button-bg: #3b82f6;
+      --button-text: #ffffff;
+      --card-shadow: rgba(255, 255, 255, 0.1);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: all 0.4s ease;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: var(--nav-bg);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+    }
+
+    .toggle-btn {
+      padding: 10px 14px;
+      background-color: var(--button-bg);
+      color: var(--button-text);
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      color: var(--heading-color);
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: 20px 0;
+      line-height: 1.6;
+    }
+
+    .hero img {
+      margin-top: 30px;
+      max-width: 100%;
+      width: 400px;
+      box-shadow: 0 10px 25px var(--card-shadow);
+      border-radius: 10px;
+    }
+
+    .btn-primary {
+      padding: 12px 25px;
+      background-color: var(--button-bg);
+      color: var(--button-text);
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+
+    @media (min-width: 768px) {
+      .hero {
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+        text-align: left;
+      }
+
+      .hero > div {
+        max-width: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="font-weight: bold; font-size: 1.2rem; margin-left: 170px;">APP DESIGNS</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Apps</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="toggle-btn" id="modeToggle">🌙 Dark Mode</button>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Landing Template for Startups</h1>
+      <p>
+        Our landing page template works on all devices and browsers. Set it up once, and get beautiful results forever — fast, responsive, and modern.
+      </p>
+      <button class="btn-primary">Pricing and Plans</button>
+    </div>
+    <img src="https://cdni.iconscout.com/illustration/premium/thumb/full-stack-developer-illustration-download-in-svg-png-gif-file-formats--binary-coding-design-digital-modern-technology-pack-development-illustrations-1651585.png" alt="App Screenshot" />
+  </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
