@@ -12,7 +12,24 @@ Welcome to the **Dark Mode Toggle** project — a sleek, user-friendly feature t
 
 > 🔁 Auto-remembers your theme even after refreshing the page!
 
----
+# Video
+
+
+
+
+
+https://github.com/user-attachments/assets/37944b6f-3d78-4d56-b2ec-322a74c7d694
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🎯 Project Highlights
 
