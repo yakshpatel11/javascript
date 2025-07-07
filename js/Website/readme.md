@@ -51,7 +51,18 @@ This is a **vanilla JavaScript project** that simulates an e-commerce shopping c
 
 ## 📸 Video
 
-> Add Video here of:
+
+
+
+
+https://github.com/user-attachments/assets/6cf867a3-d96b-433e-a114-81779a1747ce
+
+
+
+
+
+
+
 
 
 
