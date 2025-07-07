@@ -1,107 +1,75 @@
-# 🌙✨ Dark Mode Toggle Web App
+# 🛒 Car Accessories E-Commerce 🧼🚗
 
-Welcome to the **Dark Mode Toggle** project — a sleek, user-friendly feature that enhances user experience with a beautiful light/dark theme switch 🌗💡
+This is a **vanilla JavaScript project** that simulates an e-commerce shopping cart for car accessories. Products are loaded into localStorage and displayed on the UI, allowing users to:
 
----
+* 📦 View a list of products
+* 🛍 Add items to the cart
+* ➕ Increase/➖ decrease quantity
+* 🧾 View subtotal, discount, GST, and grand total
+* ❌ Remove items from the cart
 
-## 🖼️ Preview
+## 📁 Features
 
-| 🌞 Light Mode | 🌚 Dark Mode |
-|--------------|--------------|
-| ![Light Mode](https://your-image-url-light.png) | ![Dark Mode](https://your-image-url-dark.png) |
-
-> 🔁 Auto-remembers your theme even after refreshing the page!
-
-# Video
-
-
-
-
-
-https://github.com/user-attachments/assets/37944b6f-3d78-4d56-b2ec-322a74c7d694
-
-
-
-
-
-
-
-
-
-
-
-
-## 🎯 Project Highlights
-
-- 🎨 **Instant Theme Switch** – Smooth and stylish toggle between light and dark themes.
-- 💾 **Persistent Preference** – Saves your chosen mode in `localStorage`.
-- 🧠 **Minimal Logic, Maximum Impact** – Clean functionality with a smart UI touch.
-- 🪄 **Improves Accessibility** – Let users choose what feels best for their eyes!
+✅ Display product list
+✅ Store product and cart data in `localStorage`
+✅ Live cart update with subtotal, 10% discount & 18% GST
+✅ Item quantity control with +/− buttons
+✅ Remove item from cart
+✅ Message when cart is empty
 
 ---
 
-## 📁 What's Inside
+## 🖥️ Technologies Used
 
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Local Storage API
+
+---
+
+## 🛠️ How to Use
+
+1. **Clone the repository** or copy the code into a local project folder.
+2. Create an `index.html` file and link this script, and make sure you have a `div` with the following IDs:
+
+```html
+<div id="product-list"></div>
+<ul id="cart-items"></ul>
+<div id="cart-total"></div>
 ```
 
-📂 DarkModeToggle/
-┣ 📄 index.html
-┣ 🎨 styles.css
-┗ 🧠 script.js
+3. Paste the JavaScript into a file (e.g., `script.js`) and link it in your HTML:
 
+```html
+<script src="script.js"></script>
 ```
 
----
-
-## 🌐 Live Demo
-
-🖱️ Click here to see it in action: [🔗 Live Preview](https://your-live-demo-link.com)
+4. Open the `index.html` in your browser to see the app in action!
 
 ---
 
-## 🚀 Getting Started
+## 📸 Video
 
-1. Clone this repo  
-   `git clone https://github.com/your-username/dark-mode-toggle.git`
+> Add Video here of:
 
-2. Open `index.html` in your browser  
-   ✨ Enjoy the smooth toggle!
 
----
 
-## 🛠️ Built With
+## 💡 Future Improvements
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- ❤️ Simplicity & Clean Design
+* 🛒 Cart badge with item count
+* 💳 Checkout page integration
+* 🧮 Promo code support
+* 🔍 Search and filter functionality
+* 🌐 Backend integration for product database
 
 ---
 
-## 🙋‍♂️ Why I Built This
+## 👨‍💻 Author
 
-Dark mode is no longer a luxury — it's an essential part of modern UI/UX design. This project shows how a **small feature** can make a **big difference** in user interaction and satisfaction! 🎯
+Created with 💻 and ☕ by **\[Your Name]**
+Feel free to contribute, fork, or share ideas!
 
----
 
-## 🤝 Contribute & Connect
 
-If you have ideas or improvements — feel free to:
-
-- 🌟 Star this repo
-- 🍴 Fork it
-- 🔧 Submit pull requests
-- 💬 Share feedback
-
-Let's grow together!
-
----
-
-## 📜 License
-
-Licensed under the [MIT License](LICENSE)
-
----
-
-### 🧑‍💻 Made with passion by [Yakshhhh]💙
 
