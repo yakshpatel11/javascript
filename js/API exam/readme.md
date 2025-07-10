@@ -25,12 +25,7 @@ This is a **Weather App** built using **HTML**, **JavaScript**, and the [OpenWea
 
 ## 🔧 Setup Instructions
 
-1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
-   cd weather-app
-Open index.html in your browser
 
 You can also host it using services like GitHub Pages or Netlify for free!
 
